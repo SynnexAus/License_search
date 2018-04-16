@@ -1,0 +1,1 @@
+[13-Oct-2017 23:15:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$exportData' (T_VARIABLE) in /home1/epixe9aq/public_html/demo/avg-license-renewals/adminpanel/export-customers.php on line 77

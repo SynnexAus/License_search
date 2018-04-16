@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "licensesearch.synnexcloud.com.au"
+AuthUserFile "/home/synnexcloudcom/.htpasswds/licensesearch.synnexcloud.com.au/passwd"
+require valid-user

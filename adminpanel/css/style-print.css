@@ -1,0 +1,6 @@
+body{font-family:Arial, Helvetica, sans-serif, verdana,arial,sans-serif; font-size:13px; color:#4c4c4c; line-height:20px; }
+table{font-family:Arial, Helvetica, sans-serif, verdana,arial,sans-serif; font-size:13px; color:#4c4c4c; border-width:1px; border-color: #dddddd; border-collapse: collapse; width:100%; margin:0 0 15px 0}
+table th {border-width: 1px; padding: 8px; border-style: solid; border-color: #dddddd; background-color: #ffffff; text-align:left;}
+table td {border-width: 1px; padding: 8px; border-style: solid; border-color: #dddddd; background-color: #ffffff; vertical-align:top}
+table img{ border:1px solid #ccc; padding:4px; width:200px; background:#f1f1f1;}
+

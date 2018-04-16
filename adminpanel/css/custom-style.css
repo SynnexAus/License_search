@@ -1,0 +1,55 @@
+table.dataTable thead .hideshort.sorting{background:none !important;cursor:default;}
+
+.marginn.addlink { margin-top:15px; }
+#project_gallery > div { width:100%; }
+
+.form-group .formmaintable tr td { padding:0 10px 10px 0; }
+.form-group.check_box_margin { margin-bottom:35px !important; }
+.form-group.check_box_margin .icheckbox_minimal { position:inherit !important; }
+.form-group.check_box_margin label.error { position:absolute; left:12px; bottom:-34px; width:100%; }
+.form-group.check_box_margin .icheckbox_minimal ins.iCheck-helper { position:relative !important; }
+
+.form-group label.error {  font-size:13px;
+		display: block; 
+		height: auto; 
+		line-height: 22px; 
+		background: #FBE3E4 url(images/error.gif) no-repeat 10px center; 
+		padding: 3px 10px 3px 35px; 
+		color:#8a1f11;
+		border: 1px solid #FBC2C4; 
+		font-weight:400; border-radius:0;	
+	}
+	
+.form-group .formmaintable tr td.add_price a.addlink { background:url(images/add_icon.png) left top no-repeat; line-height:20px; padding-left:30px; padding-bottom:3px; font-weight:bold; color:#00a65a; }
+.form-group .formmaintable tr td.add_price a.addlink:hover { color:#333; }
+
+.remove-btn{padding-left:5px;}
+
+.table-responsive.table-res{overflow:auto;}
+.table-responsive.table-res tr td .checked{width:auto;}
+
+.customers-tb form#SearchForm .clear{display:none;}
+.customers-tb table tr td.license-number{white-space:nowrap;}
+.customers-tb table tr td .icheckbox_minimal{width:18px;}
+.customers-tb.table-res table tr td.check-main .icheckbox_minimal{width:18px;}
+
+.customers-tb form#SearchForm{position:relative; padding-right:147px; width:100%; float:left;}
+.customers-tb form#SearchForm label{width:12.5%; float:left; margin:0 1.77% 0 0;}
+.customers-tb .btn-setright{position:absolute; right:0; top:19px;}
+.customers-tb #SearchForm .last-btn{margin-right:0;}
+.customers-tb #SearchForm label #to_date{margin-top:20px;}
+
+.customers-tb .clear{clear:both;}
+
+@media only screen and (max-width: 1315px){
+.customers-tb form#SearchForm label{width:23.2%; margin-bottom:10px;}
+
+}
+
+@media only screen and (max-width: 1099px){
+.customers-tb form#SearchForm{padding-right:0;}
+.customers-tb form#SearchForm label{float:none; margin-right:18px; width:auto;}
+.customers-tb #SearchForm label #to_date{margin-top:5px;}
+.customers-tb .btn-setright{display:inline-block; top:0; vertical-align:top; padding:5px 0 0; position:relative;}
+
+}

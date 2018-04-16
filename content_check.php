@@ -1,0 +1,24 @@
+<?php 
+	$selResGen=$mfp->mf_query("SELECT * FROM `settings` where id='1'");
+	if($mfp->mf_affected_rows()>0)
+	{		
+		$selResGen=$mfp->mf_fetch_array($selResGen);
+		$facebook=stripslashes($selResGen['facebook']);
+		$twitter=stripslashes($selResGen['twitter']);
+		$youtube=stripslashes($selResGen['youtube']);
+		$googleplus=stripslashes($selResGen['googleplus']);
+		$linkedin=stripslashes($selResGen['linkedin']);
+		$too=stripslashes($selResGen['too']);
+		$cc=stripslashes($selResGen['cc']);
+		$bcc=stripslashes($selResGen['bcc']);
+		$phone=stripslashes($selResGen['phone']);
+		$address=stripslashes($selResGen['address']);
+		$email=stripslashes($selResGen['email']);
+		$state=stripslashes($selResGen['state']);
+		$city=stripslashes($selResGen['city']);
+		$zipcode=stripslashes($selResGen['zipcode']);
+		$latitude=stripslashes($selResGen['latitude']);
+		$longitude=stripslashes($selResGen['longitude']);
+		$about_company=stripslashes($selResGen['about_company']);
+	}
+?>
